@@ -1,0 +1,33 @@
+/*
+
+add either class or ID attributes to each element as required
+add rules in the CSS file provided using the correct selector syntax
+
+All odd numbered elements: a light red/pink background, and a list of fonts 
+containing Verdana and DejaVu Sans with sans-serif as a fallback */
+
+.odd{
+    background-color: pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+
+/* The second element: blue text and a font size of 36px */
+#element-two{
+    color: blue;
+    font-size: 36px;
+}
+
+
+/* The third element: in addition to the styles for all odd numbered elements,
+add a font size of 24px */
+.three, #element-four {
+    font-size: 24px;
+}
+
+
+/* The fourth element: a light green background, a font size of 24px, and bold */
+#element-four{
+    background-color: lightgreen;
+    font-weight: bold;
+}
